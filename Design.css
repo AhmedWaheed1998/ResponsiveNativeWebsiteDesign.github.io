@@ -12,7 +12,7 @@ body {
 }
 
 
-@media only screen and (min-width: 0px) and (max-width: 546px){
+@media only screen and (min-width: 0px) and (max-width: 586px){
     .nav-and-start {
         min-width: 100%;
         min-height: 600px;
