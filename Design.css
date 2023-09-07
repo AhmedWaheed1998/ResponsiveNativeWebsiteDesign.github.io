@@ -1,0 +1,1413 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 546px){
+    .nav-and-start {
+        min-width: 100%;
+        min-height: 600px;
+        background-image: url('img/hero-background.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .dim {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .p-t {
+        padding-top: 40px;
+    }
+
+    .m-b {
+        margin-bottom: 50px;
+    }
+
+    .nav-bar {
+        display: grid;   
+        grid-template-columns: 28% 55% auto;
+        color: white;
+    }
+
+    ul {
+        display: flex;
+    }
+    
+    ul li {
+        list-style-type: none;
+        padding-left: 16px;
+        margin-top: -5px;
+        font-size: 6px;
+    }
+    
+    .nav-button {
+        background-color: transparent;
+        color: white;
+        border: 1px white solid;
+        border-radius: 7px;
+        width: 100px;
+        height: 35px;
+        font-size: 6px;
+    }
+
+    .search-1 {
+        transform: translateX(10%);
+    }
+
+    .search-1 input {
+        height: 50px;
+        width: 300px;
+        padding-left: 20px;
+        border-radius: 5px;
+    }
+
+    .search-1 button {
+        height: 54px;
+        margin-left: -7px;
+        border: none;
+        color: white;
+        background-color: rgb(223, 69, 69);
+        border-radius: 5px;
+    }
+
+    .pic-items {
+        margin-top: 80px;
+    }
+
+    .images-1, .images-2 {
+        display: flex;
+        height: 400px;
+        gap: 15px;
+    }
+
+     .img-1 {
+        background-image: url('img/destination-1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 6;
+        margin-bottom: 15px;
+        
+    }
+
+    .img-2 {
+        background-image: url('img/destination-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 4;
+        margin-bottom: 15px;
+    }
+
+    .img-3 {
+        background-image: url('img/destination-3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 3.3px;
+        flex-grow: 4;
+    }
+    .img-4 {
+        background-image: url('img/destination-4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 3.3;
+    }
+    .img-5 {
+        background-image: url('img/destination-5.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 3.4;
+    }
+
+}
+@media only screen and (min-width: 546px) and (max-width: 768px) {
+
+    .nav-and-start {
+        min-width: 100%;
+        min-height: 600px;
+        background-image: url('img/hero-background.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .dim {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .p-t {
+        padding-top: 40px;
+    }
+
+    .m-b {
+        margin-bottom: 50px;
+    }
+
+    .nav-bar {
+        display: grid;   
+        grid-template-columns: 30% 55% auto;
+        color: white;
+    }
+
+    ul {
+        display: flex;
+    }
+    
+    ul li {
+        list-style-type: none;
+        padding-left: 10px;
+        margin-top: -5px;
+        font-size: 14px;
+    }
+    
+    .nav-button {
+        background-color: transparent;
+        color: white;
+        border: 1px white solid;
+        border-radius: 7px;
+        width: 100px;
+        height: 35px;
+    }
+
+    .desc-1 {
+        color : white; 
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    .desc-1 h1 {
+        font-size: 40px;;
+    }
+
+    .desc-1 h4 {
+        font-size: 15px;
+        margin-top: -35px;
+    }
+
+    .search-1 {
+        transform: translateX(10%);
+    }
+
+    .search-1 input {
+        height: 50px;
+        width: 300px;
+        padding-left: 20px;
+        border-radius: 5px;
+    }
+
+    .search-1 button {
+        height: 54px;
+        margin-left: -7px;
+        border: none;
+        color: white;
+        background-color: rgb(223, 69, 69);
+        border-radius: 5px;
+    }
+
+    .i-0 {
+        height:60px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        border: 1px rgb(230, 230, 230) solid;
+        border-radius: 20x;
+        justify-content: space-between;
+        margin-top: -50px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 8px;
+        align-items: center;
+        box-shadow: 1px 1px 15px;
+        text-align: center;
+        
+    }
+
+    .i-0 div p {
+        color: rgb(54, 54, 54);
+        
+    }
+    
+    .explore {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .pic-items {
+        margin-top: 80px;
+    }
+
+    .images-1, .images-2 {
+        display: flex;
+        height: 400px;
+        gap: 15px;
+    }
+
+     .img-1 {
+        background-image: url('img/destination-1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 6;
+        margin-bottom: 15px;
+        
+    }
+
+    .img-2 {
+        background-image: url('img/destination-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 4;
+        margin-bottom: 15px;
+    }
+
+    .img-3 {
+        background-image: url('img/destination-3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 3.3px;
+        flex-grow: 4;
+    }
+    .img-4 {
+        background-image: url('img/destination-4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 3.3;
+    }
+    .img-5 {
+        background-image: url('img/destination-5.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 3.4;
+    }
+
+    .explore-2 {
+        margin-top: 80px;
+        width: 25%;
+        text-align: center;
+    }
+
+    .explore-2 p {
+        border: 1px solid rgb(172, 172, 172);
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .have {
+        min-width: 100%;
+        min-height: 600px;
+        background-image: url('img/rent-boat-background.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 80px;
+    }
+
+    .p-t {
+        padding-top: 40px;
+    }
+
+    .m-b {
+        margin-bottom: 50px;
+    }
+
+    .nav-bar-2 {
+        display: grid;   
+        grid-template-columns: 30% 67% auto;
+        color: white;
+    }
+
+    
+    .nav-button {
+        background-color: transparent;
+        color: white;
+        border: 1px white solid;
+        border-radius: 7px;
+        width: 100px;
+        height: 35px;
+    }
+
+    .desc-1 {
+        color : white; 
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    .desc-1 h1 {
+        font-size: 35px;;
+    }
+
+    .desc-1 h4 {
+        font-size: 25px;
+        margin-top: -35px;
+    }
+
+    .search-2 {
+        transform: translateX(40%);
+        margin-top: 60px;
+    }
+
+    .search-2 button {
+        height: 54px;
+        margin-left: -7px;
+        border: none;
+        color: white;
+        background-color: rgb(223, 69, 69);
+        border-radius: 5px;
+    }
+
+    .pic-items-2 {
+        margin-top: 80px;
+    }
+
+    .images-11, .images-22 {
+        display: flex;
+        height: 400px;
+        gap: 15px;
+    }
+
+     .img-111 {
+        background-image: url('img/boat-1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 5;
+        margin-bottom: 15px;
+        
+    }
+
+    .img-222 {
+        background-image: url('img/boat-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 5;
+        margin-bottom: 15px;
+    }
+
+    .img-333 {
+        background-image: url('img/boat-3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 3.3px;
+        flex-grow: 5;
+    }
+    .img-444 {
+        background-image: url('img/boat-4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 5;
+    }
+
+    .foater { 
+        display: flex;
+        gap: 100px;
+        background-color: rgb(83, 83, 83);
+        padding-left: 2%;
+        padding-right: 2%;
+        color: white;
+        margin-top: 80px;
+        font-size: 5px;
+        border-top: 5px dashed rgb(167, 58, 58);
+        
+    }
+    
+    .search-3 {
+        transform: translateX(15%);
+        margin-top: 60px;
+    }
+
+    .search-3 button {
+        height: 30px;
+        margin-left: -5px;
+        border: none;
+        color: white;
+        background-color: rgb(223, 69, 69);
+        border-radius: 5px;
+        width: 80px;
+        font-size: 9px;
+        
+    }
+
+    .design {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .nav-and-start {
+        min-width: 100%;
+        min-height: 600px;
+        background-image: url('img/hero-background.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .dim {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .p-t {
+        padding-top: 40px;
+    }
+
+    .m-b {
+        margin-bottom: 50px;
+    }
+
+    .nav-bar {
+        display: grid;   
+        grid-template-columns: 30% 67% auto;
+        color: white;
+    }
+
+    ul {
+        display: flex;
+    }
+    
+    ul li {
+        list-style-type: none;
+        padding-left: 10px;
+        margin-top: -5px;
+    }
+    
+    .nav-button {
+        background-color: transparent;
+        color: white;
+        border: 1px white solid;
+        border-radius: 7px;
+        width: 100px;
+        height: 35px;
+    }
+
+    .desc-1 {
+        color : white; 
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    .desc-1 h1 {
+        font-size: 70px;;
+    }
+
+    .desc-1 h4 {
+        font-size: 25px;
+        margin-top: -35px;
+    }
+
+    .search-1 {
+        transform: translateX(20%);
+    }
+
+    .search-1 input {
+        height: 50px;
+        width: 500px;
+        padding-left: 20px;
+        border-radius: 5px;
+    }
+
+    .search-1 button {
+        height: 54px;
+        margin-left: -7px;
+        border: none;
+        color: white;
+        background-color: rgb(223, 69, 69);
+        border-radius: 5px;
+    }
+
+    .i-0 {
+        height:60px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        border: 1px rgb(230, 230, 230) solid;
+        border-radius: 20x;
+        justify-content: space-between;
+        margin-top: -50px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 8px;
+        align-items: center;
+        box-shadow: 1px 1px 15px;
+        text-align: center;
+        
+    }
+
+    .i-0 div p {
+        color: rgb(54, 54, 54);
+        
+    }
+    
+    .explore {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .pic-items {
+        margin-top: 80px;
+    }
+
+    .images-1, .images-2 {
+        display: flex;
+        height: 400px;
+        gap: 15px;
+    }
+
+     .img-1 {
+        background-image: url('img/destination-1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 6;
+        margin-bottom: 15px;
+        
+    }
+
+    .img-2 {
+        background-image: url('img/destination-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 4;
+        margin-bottom: 15px;
+    }
+
+    .img-3 {
+        background-image: url('img/destination-3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 3.3px;
+        flex-grow: 4;
+    }
+    .img-4 {
+        background-image: url('img/destination-4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 3.3;
+    }
+    .img-5 {
+        background-image: url('img/destination-5.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 3.4;
+    }
+
+    .explore-2 {
+        margin-top: 80px;
+        width: 20%;
+        text-align: center;
+    }
+
+    .explore-2 p {
+        border: 1px solid rgb(172, 172, 172);
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .have {
+        min-width: 100%;
+        min-height: 600px;
+        background-image: url('img/rent-boat-background.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 80px;
+    }
+
+    .p-t {
+        padding-top: 40px;
+    }
+
+    .m-b {
+        margin-bottom: 50px;
+    }
+
+    .nav-bar-2 {
+        display: grid;   
+        grid-template-columns: 30% 67% auto;
+        color: white;
+    }
+
+    
+    .nav-button {
+        background-color: transparent;
+        color: white;
+        border: 1px white solid;
+        border-radius: 7px;
+        width: 100px;
+        height: 35px;
+    }
+
+    .desc-1 {
+        color : white; 
+        text-align: center;
+        margin-top: 150px;
+        font-size: 13px;
+    }
+
+    .desc-1 h1 {
+        font-size: 60px;;
+    }
+
+    .desc-1 h4 {
+        font-size: 25px;
+        margin-top: -35px;
+    }
+
+    .search-2 {
+        transform: translateX(45%);
+        margin-top: 60px;
+    }
+
+    .search-2 button {
+        height: 54px;
+        margin-left: -7px;
+        border: none;
+        color: white;
+        background-color: rgb(223, 69, 69);
+        border-radius: 5px;
+    }
+
+    .pic-items-2 {
+        margin-top: 80px;
+    }
+
+    .images-11, .images-22 {
+        display: flex;
+        height: 400px;
+        gap: 15px;
+    }
+
+     .img-111 {
+        background-image: url('img/boat-1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 5;
+        margin-bottom: 15px;
+        
+    }
+
+    .img-222 {
+        background-image: url('img/boat-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 5;
+        margin-bottom: 15px;
+    }
+
+    .img-333 {
+        background-image: url('img/boat-3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 3.3px;
+        flex-grow: 5;
+    }
+    .img-444 {
+        background-image: url('img/boat-4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 5;
+    }
+
+    .foater { 
+        display: flex;
+        gap: 100px;
+        background-color: rgb(83, 83, 83);
+        padding-left: 10%;
+        padding-right: 10%;
+        color: white;
+        margin-top: 80px;
+        font-size: 15px;
+        border-top: 5px dashed rgb(167, 58, 58);
+        
+    }
+    
+    .search-3 {
+        transform: translateX(25%);
+        margin-top: 60px;
+    }
+
+    .search-3 button {
+        height: 54px;
+        margin-left: -7px;
+        border: none;
+        color: white;
+        background-color: rgb(223, 69, 69);
+        border-radius: 5px;
+        width: 150px;
+    }
+
+    .design {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .nav-and-start {
+        min-width: 100%;
+        min-height: 600px;
+        background-image: url('img/hero-background.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .dim {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .p-t {
+        padding-top: 40px;
+    }
+
+    .m-b {
+        margin-bottom: 50px;
+    }
+
+    .nav-bar {
+        display: grid;   
+        grid-template-columns: 28% 55% auto;
+        color: white;
+    }
+
+    ul {
+        display: flex;
+    }
+    
+    ul li {
+        list-style-type: none;
+        padding-left: 25px;
+        margin-top: -5px;
+    }
+    
+    .nav-button {
+        background-color: transparent;
+        color: white;
+        border: 1px white solid;
+        border-radius: 7px;
+        width: 100px;
+        height: 35px;
+    }
+
+    .desc-1 {
+        color : white; 
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    .desc-1 h1 {
+        font-size: 70px;;
+    }
+
+    .desc-1 h4 {
+        font-size: 25px;
+        margin-top: -35px;
+    }
+
+    .search-1 {
+        transform: translateX(25%);
+    }
+
+    .search-1 input {
+        height: 50px;
+        width: 500px;
+        padding-left: 20px;
+        border-radius: 5px;
+    }
+
+    .search-1 button {
+        height: 54px;
+        margin-left: -7px;
+        border: none;
+        color: white;
+        background-color: rgb(223, 69, 69);
+        border-radius: 5px;
+    }
+
+    .i-0 {
+        height:60px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        border: 1px rgb(230, 230, 230) solid;
+        border-radius: 20x;
+        justify-content: space-between;
+        margin-top: -50px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 8px;
+        align-items: center;
+        box-shadow: 1px 1px 15px;
+        text-align: center;
+        
+    }
+
+    .i-0 div p {
+        color: rgb(54, 54, 54);
+        
+    }
+    
+    .explore {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .pic-items {
+        margin-top: 80px;
+    }
+
+    .images-1, .images-2 {
+        display: flex;
+        height: 400px;
+        gap: 15px;
+    }
+
+     .img-1 {
+        background-image: url('img/destination-1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 6;
+        margin-bottom: 15px;
+        
+    }
+
+    .img-2 {
+        background-image: url('img/destination-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 4;
+        margin-bottom: 15px;
+    }
+
+    .img-3 {
+        background-image: url('img/destination-3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 3.3px;
+        flex-grow: 4;
+    }
+    .img-4 {
+        background-image: url('img/destination-4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 3.3;
+    }
+    .img-5 {
+        background-image: url('img/destination-5.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 3.4;
+    }
+
+    .explore-2 {
+        margin-top: 80px;
+        width: 20%;
+        text-align: center;
+    }
+
+    .explore-2 p {
+        border: 1px solid rgb(172, 172, 172);
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .have {
+        min-width: 100%;
+        min-height: 600px;
+        background-image: url('img/rent-boat-background.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 80px;
+    }
+
+    .p-t {
+        padding-top: 40px;
+    }
+
+    .m-b {
+        margin-bottom: 50px;
+    }
+
+    .nav-bar-2 {
+        display: grid;   
+        grid-template-columns: 30% 67% auto;
+        color: white;
+    }
+
+    
+    .nav-button {
+        background-color: transparent;
+        color: white;
+        border: 1px white solid;
+        border-radius: 7px;
+        width: 100px;
+        height: 35px;
+    }
+
+    .desc-1 {
+        color : white; 
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    .desc-1 h1 {
+        font-size: 70px;;
+    }
+
+    .desc-1 h4 {
+        font-size: 25px;
+        margin-top: -35px;
+    }
+
+    .search-2 {
+        transform: translateX(45%);
+        margin-top: 60px;
+    }
+
+    .search-2 button {
+        height: 54px;
+        margin-left: -7px;
+        border: none;
+        color: white;
+        background-color: rgb(223, 69, 69);
+        border-radius: 5px;
+    }
+
+    .pic-items-2 {
+        margin-top: 80px;
+    }
+
+    .images-11, .images-22 {
+        display: flex;
+        height: 400px;
+        gap: 15px;
+    }
+
+     .img-111 {
+        background-image: url('img/boat-1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 5;
+        margin-bottom: 15px;
+        
+    }
+
+    .img-222 {
+        background-image: url('img/boat-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 5;
+        margin-bottom: 15px;
+    }
+
+    .img-333 {
+        background-image: url('img/boat-3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 3.3px;
+        flex-grow: 5;
+    }
+    .img-444 {
+        background-image: url('img/boat-4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 5;
+    }
+
+    .foater { 
+        display: flex;
+        gap: 100px;
+        background-color: rgb(83, 83, 83);
+        padding-left: 10%;
+        padding-right: 10%;
+        color: white;
+        margin-top: 80px;
+        border-top: 5px dashed rgb(167, 58, 58);
+        
+    }
+    
+    .search-3 {
+        transform: translateX(25%);
+        margin-top: 60px;
+    }
+
+    .search-3 button {
+        height: 54px;
+        margin-left: -7px;
+        border: none;
+        color: white;
+        background-color: rgb(223, 69, 69);
+        border-radius: 5px;
+        width: 150px;
+    }
+
+    .design {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .nav-and-start {
+        min-width: 100%;
+        min-height: 600px;
+        background-image: url('img/hero-background.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .dim {
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    .p-t {
+        padding-top: 40px;
+    }
+    
+    .m-b {
+        margin-bottom: 50px;
+    }
+    
+    .nav-bar {
+        display: grid;   
+        grid-template-columns: 50% 40% auto;
+        color: white;
+    }
+    
+    ul {
+        display: flex;
+    }
+    
+    ul li {
+        list-style-type: none;
+        padding-left: 30px;
+        margin-top: -5px;
+    }
+    
+    .nav-button {
+        background-color: transparent;
+        color: white;
+        border: 1px white solid;
+        border-radius: 7px;
+        width: 100px;
+        height: 35px;
+    }
+
+    .desc-1 {
+        color : white; 
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    .desc-1 h1 {
+        font-size: 70px;;
+    }
+
+    .desc-1 h4 {
+        font-size: 25px;
+        margin-top: -35px;
+    }
+
+    .search-1 {
+        transform: translateX(30%);
+    }
+
+    .search-1 input {
+        height: 50px;
+        width: 500px;
+        padding-left: 20px;
+        border-radius: 5px;
+    }
+
+    .search-1 button {
+        height: 54px;
+        margin-left: -7px;
+        border: none;
+        color: white;
+        background-color: rgb(223, 69, 69);
+        border-radius: 5px;
+    }
+
+
+    .i-0 {
+        height:60px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        border: 1px rgb(230, 230, 230) solid;
+        border-radius: 20x;
+        justify-content: space-between;
+        margin-top: -50px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 8px;
+        align-items: center;
+        box-shadow: 1px 1px 15px;
+        text-align: center;
+        
+    }
+
+    .i-0 div p {
+        color: rgb(54, 54, 54);
+        
+    }
+    
+    .explore {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .pic-items {
+        margin-top: 80px;
+    }
+
+    .images-1, .images-2 {
+        display: flex;
+        height: 400px;
+        gap: 15px;
+    }
+
+     .img-1 {
+        background-image: url('img/destination-1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 6;
+        margin-bottom: 15px;
+        
+    }
+
+    .img-2 {
+        background-image: url('img/destination-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 4;
+        margin-bottom: 15px;
+    }
+
+    .img-3 {
+        background-image: url('img/destination-3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 3.3px;
+        flex-grow: 4;
+    }
+    .img-4 {
+        background-image: url('img/destination-4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 3.3;
+    }
+    .img-5 {
+        background-image: url('img/destination-5.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 3.4;
+    }
+
+    .explore-2 {
+        margin-top: 80px;
+        width: 20%;
+        text-align: center;
+    }
+
+    .explore-2 p {
+        border: 1px solid rgb(172, 172, 172);
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .have {
+        min-width: 100%;
+        min-height: 600px;
+        background-image: url('img/rent-boat-background.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .p-t {
+        padding-top: 40px;
+    }
+
+    .m-b {
+        margin-bottom: 50px;
+    }
+
+    .nav-bar-2 {
+        display: grid;   
+        grid-template-columns: 30% 67% auto;
+        color: white;
+    }
+
+    
+    .nav-button {
+        background-color: transparent;
+        color: white;
+        border: 1px white solid;
+        border-radius: 7px;
+        width: 100px;
+        height: 35px;
+    }
+
+    .desc-1 {
+        color : white; 
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    .desc-1 h1 {
+        font-size: 70px;;
+    }
+
+    .desc-1 h4 {
+        font-size: 25px;
+        margin-top: -35px;
+    }
+
+    .search-2 {
+        transform: translateX(45%);
+        margin-top: 60px;
+    }
+
+    .search-2 button {
+        height: 54px;
+        margin-left: -7px;
+        border: none;
+        color: white;
+        background-color: rgb(223, 69, 69);
+        border-radius: 5px;
+    }
+
+    .featured-boat {
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .pic-items-2 {
+        margin-top: 80px;
+    }
+
+    .images-11, .images-22 {
+        display: flex;
+        height: 400px;
+        gap: 15px;
+    }
+
+     .img-111 {
+        background-image: url('img/boat-1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 5;
+        margin-bottom: 15px;
+        
+    }
+
+    .img-222 {
+        background-image: url('img/boat-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 5;
+        margin-bottom: 15px;
+    }
+
+    .img-333 {
+        background-image: url('img/boat-3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 3.3px;
+        flex-grow: 5;
+    }
+    .img-444 {
+        background-image: url('img/boat-4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        flex-grow: 5;
+    }
+
+    .foater { 
+        display: flex;
+        gap: 100px;
+        background-color: rgb(83, 83, 83);
+        padding-left: 10%;
+        padding-right: 10%;
+        color: white;
+        margin-top: 80px;
+        border-top: 5px dashed rgb(167, 58, 58);
+        
+    }
+    
+    .search-3 {
+        transform: translateX(25%);
+        margin-top: 60px;
+    }
+
+    .search-3 button {
+        height: 54px;
+        margin-left: -7px;
+        border: none;
+        color: white;
+        background-color: rgb(223, 69, 69);
+        border-radius: 5px;
+        width: 150px;
+    }
+
+    .design {
+        text-align: center;
+    }
+}
+
+
